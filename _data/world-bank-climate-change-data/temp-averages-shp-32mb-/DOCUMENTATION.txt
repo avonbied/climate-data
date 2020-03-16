@@ -1,0 +1,44 @@
+ABOUT THESE SHAPEFILES
+
+NOTE: Please consult the Climate Change Knowledge Portal at
+http://climateknowledgeportal.worldbank.org for important details on the
+proper attribution and interpretation of this data.
+
+This shapefile archive contains gridded "ensemble" temperature and precipitation data derived
+from multiple global circulation models (GCMs) as used by the Intergovernmental Panel on Climate
+Change, for months and years in four future time periods.  Values depict the range
+(10th percentile, median and 90th percentile) of model outputs for different variables,
+SRES scenarios (A2 and B1), and time periods (2020-2039, 2040-2059, 2060-2079, and
+2080-2099). Each shapefile includes a 10th percentile, median and 90th percentile value for
+each of 12 months, plus annual values.
+
+The name of each file denotes the data contained within it, as follows:
+
+  avg: these files contain average monthly and annual values.
+
+  anom: these files contain average monthly and annual changes (anomalies), relative
+  to the control period of 1961-1990.
+
+  pr: precipitation, in millimeters
+
+  tas: temperature, in degrees Celsius
+
+  a2: shapefile employs the A2 SRES scenario
+
+  b1: shapefile employs the B1 SRES scenario
+
+  2020_2039: the start and end years of the time period.
+
+Example: anom_pr_a2_2020_2039.  This file contains precipitation anomalies
+generated from the A2 SRES scenario for the 2020-2039 time period.
+
+For more background on the models, scenarios and methodologies used in these shapefiles,
+please consult the Climate Change Knowledge Portal and the Climate Data API at
+the links below.
+
+http://climateknowledgeportal.worldbank.org
+http://data.worldbank.org/developer/climate-data-api
+
+For background information on the source GCM data, visit the IPCC Data Distribution Centre:
+
+http://www.ipcc-data.org/ddc_gcm_intro.html
